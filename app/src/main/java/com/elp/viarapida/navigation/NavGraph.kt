@@ -42,4 +42,6 @@ sealed class Screen(val route: String) {
     object CambiarPassword : Screen("cambiar_password")
     object Ayuda : Screen("ayuda")
     object Terminos : Screen("terminos")
+    // Dentro de sealed class Screen, agrega:
+
 }
